@@ -1,0 +1,143 @@
+PODS:
+  - AgoraRtcEngine_iOS (3.4.6)
+  - AgoraRtm_iOS (1.4.8)
+  - Alamofire (4.9.1)
+  - DrawerView (1.3.3)
+  - DropDown (2.3.13)
+  - FacebookCore (0.9.0):
+    - FBSDKCoreKit (~> 5.0)
+  - FacebookLogin (0.9.0):
+    - FacebookCore (~> 0.9.0)
+    - FBSDKCoreKit (~> 5.0)
+    - FBSDKLoginKit (~> 5.0)
+  - FacebookShare (0.9.0):
+    - FacebookCore (~> 0.9.0)
+    - FBSDKCoreKit (~> 5.0)
+    - FBSDKShareKit (~> 5.0)
+  - FBSDKCoreKit (5.15.1):
+    - FBSDKCoreKit/Basics (= 5.15.1)
+    - FBSDKCoreKit/Core (= 5.15.1)
+  - FBSDKCoreKit/Basics (5.15.1)
+  - FBSDKCoreKit/Core (5.15.1):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (5.15.1):
+    - FBSDKLoginKit/Login (= 5.15.1)
+  - FBSDKLoginKit/Login (5.15.1):
+    - FBSDKCoreKit (~> 5.0)
+  - FBSDKShareKit (5.15.1):
+    - FBSDKShareKit/Share (= 5.15.1)
+  - FBSDKShareKit/Share (5.15.1):
+    - FBSDKCoreKit (~> 5.0)
+  - FittedSheets (1.3.0)
+  - GoogleMaps (3.8.0):
+    - GoogleMaps/Maps (= 3.8.0)
+  - GoogleMaps/Base (3.8.0)
+  - GoogleMaps/Maps (3.8.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.8.0):
+    - GoogleMaps/Base (= 3.8.0)
+  - IQKeyboardManagerSwift (6.5.5)
+  - Kingfisher (5.15.5):
+    - Kingfisher/Core (= 5.15.5)
+  - Kingfisher/Core (5.15.5)
+  - NVActivityIndicatorView (4.8.0):
+    - NVActivityIndicatorView/Presenter (= 4.8.0)
+  - NVActivityIndicatorView/Presenter (4.8.0)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - Swifter (2.4.0)
+  - SwiftyJSON (4.3.0)
+  - Toast-Swift (5.0.1)
+  - TweeTextField (1.6.3)
+  - TwitterCore (3.2.0)
+  - TwitterKit (3.4.2):
+    - TwitterCore (>= 3.2.0)
+
+DEPENDENCIES:
+  - AgoraRtcEngine_iOS
+  - AgoraRtm_iOS
+  - Alamofire (~> 4.5)
+  - DrawerView
+  - DropDown
+  - FacebookCore
+  - FacebookLogin
+  - FacebookShare
+  - FBSDKLoginKit
+  - FittedSheets (~> 1.3.0)
+  - GoogleMaps
+  - GooglePlaces
+  - IQKeyboardManagerSwift
+  - Kingfisher (~> 5.0)
+  - NVActivityIndicatorView (~> 4.8)
+  - SDWebImage
+  - Swifter (from `https://github.com/mattdonnelly/Swifter.git`)
+  - SwiftyJSON (~> 4.0)
+  - Toast-Swift (~> 5.0.1)
+  - TweeTextField
+  - TwitterKit
+
+SPEC REPOS:
+  trunk:
+    - AgoraRtcEngine_iOS
+    - AgoraRtm_iOS
+    - Alamofire
+    - DrawerView
+    - DropDown
+    - FacebookCore
+    - FacebookLogin
+    - FacebookShare
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKShareKit
+    - FittedSheets
+    - GoogleMaps
+    - GooglePlaces
+    - IQKeyboardManagerSwift
+    - Kingfisher
+    - NVActivityIndicatorView
+    - SDWebImage
+    - SwiftyJSON
+    - Toast-Swift
+    - TweeTextField
+    - TwitterCore
+    - TwitterKit
+
+EXTERNAL SOURCES:
+  Swifter:
+    :git: https://github.com/mattdonnelly/Swifter.git
+
+CHECKOUT OPTIONS:
+  Swifter:
+    :commit: 7906c9476f612fc2a77c38f4731d4bc618cea6a8
+    :git: https://github.com/mattdonnelly/Swifter.git
+
+SPEC CHECKSUMS:
+  AgoraRtcEngine_iOS: 8aa4a8e46bd81963607857b1d46703b93e4de156
+  AgoraRtm_iOS: 382a54763803dad098d3b31a2608ccd62972e00b
+  Alamofire: 85e8a02c69d6020a0d734f6054870d7ecb75cf18
+  DrawerView: 41c5e5d6593d86335ee2cf9b18d738835593dbc1
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  FacebookCore: ba86524b66cfa86d0f8e65d08faa8504a9f732dd
+  FacebookLogin: 6cee9fd6e1fe976fe8f7eec199e27b28b14f5d63
+  FacebookShare: 85968ad1b1606c4944fb154924e425fd29184ea5
+  FBSDKCoreKit: 1d5acf7c9d7a2f92bb1a242dc60cae5b7adb91df
+  FBSDKLoginKit: f1ea8026a58b52d30c9f2e6a58ca7d813619fb83
+  FBSDKShareKit: 259737eab3cc807087374553abdf588b3096ba55
+  FittedSheets: 15788dc0bc9d57eed1842e4ccb85ae82d6b352e2
+  GoogleMaps: 7c8d66d70e4e8c300f43a7219d8fdaad7b325a9a
+  GooglePlaces: d5f70c3e9e427964fdeca1301a665d276ccd8754
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  Kingfisher: e3ec347a5ab8817b7585ef46923a2d2b9a7d8fbe
+  NVActivityIndicatorView: d24b7ebcf80af5dcd994adb650e2b6c93379270f
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  Swifter: 0955a05325dc182fabfb1468305aef887180e0f1
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
+  TweeTextField: 47bf8e7f0433364a7f7e119c45e7f278ea50eb62
+  TwitterCore: 8cbc9ad34d91c63a0035ea05bfbfc0d7ca72a28c
+  TwitterKit: 5e4f41d70b9abdb41df5467f52d7aa2c0fd26ebb
+
+PODFILE CHECKSUM: 47be29c3246f89f3333d7eacb8479b6e219352cf
+
+COCOAPODS: 1.11.3
